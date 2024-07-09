@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+}
+
+body {
+    
+}
+
+header {
+    padding-top: 50px;
+    height: 160px;
+    background-color: black;
+    text-align: center;
+}
+
+header h1{
+    min-width: 480px;
+    margin: 0px auto;
+    font-family: 'Cursive Bold';
+    font-size: 62px;
+    color: white;
+}
+
+header p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main p {
+    padding-left: 30px;
+    width: 380px;
+    font-family: 'Sriracha', sans-serif;
+    font-size: 27px;
+}
+
+section p{
+    margin: 80px 0px;
+    
+}
+
+p.text{
+    width: 400px;
+    position: absolute;
+    margin-left: 30px;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+section#P2{
+    height: 500px;
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#P4{
+    height: 500px;
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    height: 40px;
+}
+
+footer > p{
+    padding-top: 10px;
+    color: white;
+}
+
+footer > p > a{
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
